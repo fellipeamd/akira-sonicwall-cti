@@ -1,5 +1,5 @@
 # Akira Ransomware: SonicWall SSL VPN Initial Access and Early Detection
-TLP:CLEAR | Date: [...] | Author: [...]
+TLP:CLEAR | Date: 25.09.2026 | Author: Fellipe Desinde
 
 ## 1. Executive Summary
 (3–4 sentences: what, who, why it matters, main recommendation)
@@ -20,7 +20,7 @@ TLP:CLEAR | Date: [...] | Author: [...]
 (coverage table + your Sigma rules, prioritising early phases)
 
 ## 7. Recommendations
-1. Patch affected SonicWall devices and follow the vendor's full mitigation guidance
+1. Patch affected SonicWall devices and follow the vendor's full mitigation guidance (SonicWall website)
 2. Enforce MFA on all VPN accounts
 3. Reset VPN credentials
 4. Deploy detections for early-stage techniques
@@ -29,4 +29,7 @@ TLP:CLEAR | Date: [...] | Author: [...]
 ## 8. Intelligence Gaps & Limitations
 
 ## 9. Sources
-(from source log, with Admiralty ratings)
+| ID | Source | Date | Type | Contribution | Rating |
+|----|--------|------|------|--------------|--------|
+| S01 | CISA/FBI Akira advisory | 25.09.2026 | Government | TTPs, IOCs, access vectors | B2 |
+| S02 | SonicWall PSIRT advisory | 26.09.2026 | Affected vendor | Vulnerability, mitigation | B2 |

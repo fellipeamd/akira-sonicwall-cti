@@ -19,7 +19,20 @@ Intelligence lifecycle: requirements → collection → analysis → disseminati
 Frameworks: MITRE ATT&CK, Cyber Kill Chain, Admiralty Code, estimative language.
 
 ## Key Findings
-(the key judgements, short)
+
+## Key Findings
+
+1. **Akira gains access to SonicWall devices through three vectors: exploitation of CVE-2024-40766, stolen or purchased VPN credentials, and brute force.** (S01, S02 — moderate confidence: the link between Akira and this CVE relies on a single source.)*
+
+2. **CVE-2024-40766 is critical and actively exploited.** It is rated 9.3 by the vendor, has been listed in CISA KEV since 9 September 2024 with known ransomware use, and its EPSS score places it in the top 3% of all CVEs for likelihood of exploitation (0.18, retrieved 26 September 2026). *(S02, S03, FIRST EPSS — high confidence.)*
+
+3. **Patching alone was not enough.** A new wave in 2025 compromised patched Gen 7 devices whose local SSL VPN passwords had been carried over from Gen 6 without being reset. End-of-life devices will receive no patch at all. Effective remediation requires patching, credential resets, MFA and restricted access. *(S02 — high confidence.)*
+
+4. **Defenders have little time.** In some incidents, Akira exfiltrated data just over two hours after initial access, so detection must focus on the earliest stages of the intrusion. *(S01 — moderate confidence: based on a limited number of reported incidents.)*
+
+5. **Detection depends on the data an organisation collects, not only on rules.** Shadow copy deletion (T1490) can be detected with a Sigma rule converted for Splunk and Microsoft Sentinel.
+
+6. **The threat is relevant for Belgium, but Belgian-specific data is missing.** Akira's preferred sectors (critical manufacturing, healthcare, financial services, food and agriculture, education) overlap with many NIS2 entities in Belgium, but no source provides Belgian or EU-specific exploitation data. *(S01 — intelligence gap.)*
 
 ## Deliverables
 - [Technical Report](06-reports/technical-report.md)
@@ -38,7 +51,6 @@ All outputs TLP:CLEAR.
 ## Future Work
 - Aggregate attack surface analysis of Belgian exposure (Shodan/Shadowserver)
 - Sector impact analysis mapped to NIS2
-- MISP event with ATT&CK galaxies and PyMISP enrichment
 - YARA rules for Akira artefacts
 
 ## License

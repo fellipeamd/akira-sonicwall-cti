@@ -25,7 +25,7 @@ Scope: April 2025 – September 2026, EU with focus on Belgium.
 ## Collection Plan
 | EEI | Source | Method | Priority | Status |
 |-----|--------|--------|----------|--------|
-| 1 | CISA/FBI Akira advisory; SonicWall advisory; vendor IR reports | Read & extract | High | To do |
+| 1 | CISA/FBI Akira advisory; SonicWall advisory; vendor IR reports | Read & extract | High | Done |
 | 2 | NVD, FIRST EPSS, CISA KEV | Python script | High | To do |
 | 3 | CISA advisory; MITRE ATT&CK; vendor reports | ATT&CK mapping | High | To do |
 | 4 | Vendor IR reports | Extract & compare | Medium | To do |

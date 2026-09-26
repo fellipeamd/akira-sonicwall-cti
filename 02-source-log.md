@@ -5,6 +5,5 @@ Credibility 1 (confirmed) – 6 (cannot be judged).
 
 | ID | Source | Date | Type | Contribution | Rating |
 |----|--------|------|------|--------------|--------|
-| S01 | CISA/FBI Akira advisory | | Government | TTPs, IOCs, access vectors | |
-| S02 | SonicWall PSIRT advisory | | Affected vendor | Vulnerability, mitigation | |
-| S03 | | | Security vendor | | |
+| S01 | CISA/FBI Akira advisory | 25.09.2026 | Government | TTPs, IOCs, access vectors | B2 |
+| S02 | SonicWall PSIRT advisory | 26.09.2026 | Affected vendor | Vulnerability, mitigation | B2 |

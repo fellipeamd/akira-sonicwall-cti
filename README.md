@@ -1,4 +1,4 @@
-# akira-sonicwall-cti
+# Akira-SonicWall-CTI
 CTI assessment of Akira ransomware exploiting SonicWall SSL VPN
 
 # Akira Ransomware & SonicWall SSL VPN: A CTI Assessment for Belgium

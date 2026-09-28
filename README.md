@@ -20,8 +20,6 @@ Frameworks: MITRE ATT&CK, Cyber Kill Chain, Admiralty Code, estimative language.
 
 ## Key Findings
 
-## Key Findings
-
 1. **Akira gains access to SonicWall devices through three vectors: exploitation of CVE-2024-40766, stolen or purchased VPN credentials, and brute force.** (S01, S02 — moderate confidence: the link between Akira and this CVE relies on a single source.)*
 
 2. **CVE-2024-40766 is critical and actively exploited.** It is rated 9.3 by the vendor, has been listed in CISA KEV since 9 September 2024 with known ransomware use, and its EPSS score places it in the top 3% of all CVEs for likelihood of exploitation (0.18, retrieved 26 September 2026). *(S02, S03, FIRST EPSS — high confidence.)*

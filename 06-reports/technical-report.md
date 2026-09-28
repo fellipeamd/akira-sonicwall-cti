@@ -16,7 +16,7 @@
 
 ## 1. Bottom Line Up Front
 
-Akira ransomware actors gain access to victim networks through internet-exposed SonicWall SSL VPN portals, either by exploiting CVE-2024-40766 or by logging in with valid, stolen or brute-forced credentials. The common enabler is an SSL VPN without multi-factor authentication (MFA).
+Akira ransomware actors gain access to victim networks through internet-exposed SonicWall SSL VPN portals, either by exploiting CVE-2024-40766 (Critical Improper Access Control Vulnerability) or by logging in with valid, stolen or brute-forced credentials. The common enabler is an SSL VPN without multi-factor authentication (MFA).
 
 **Patching alone is not enough.** In 2025, patched SonicWall Gen 7 devices were compromised because local SSL VPN passwords had been migrated from older Gen 6 devices without being reset (S02). Once inside, Akira can move from access to data exfiltration in hours (S01).
 

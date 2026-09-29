@@ -73,7 +73,7 @@ Akira actors use three related vectors against SonicWall devices:
 | Metric | Value | Source | Retrieved |
 |---|---|---|---|
 | CVSS v3 (vendor) | 9.3 Critical | S02 | — |
-| CVSS v3 (NVD) | *[confirm from `prioritise.py` output]* | S04 | *[date]* |
+| CVSS v3 (NVD) - NIST | 9.8 Critical | S04 | 28 Sept 2026 |
 | EPSS | 0.1838 (97th percentile) | S06 | 26 Sep 2026 |
 | CISA KEV | Yes, added 9 Sep 2024; known ransomware use | S03 | 26 Sep 2026 |
 
@@ -132,7 +132,7 @@ After initial access, Akira relies heavily on legitimate tools that blend in wit
 - logins by local accounts that should use MFA, or outside business hours;
 - logins from accounts unused for a long period, such as credentials carried over from migrations.
 
-**Later stages are better covered, but depend on telemetry.** The rule `shadow-copy-deletion.yml` detects shadow copy deletion with vssadmin and converts cleanly to Splunk and to Microsoft Sentinel with Defender for Endpoint data. It cannot be converted for native Windows Security Event 4688, which does not record the original file name. Organisations relying only on native Windows auditing cannot detect a renamed tool with this rule; EDR or Sysmon telemetry is required. Full details are in `05-detection/coverage.md`.
+The rule `shadow-copy-deletion.yml` detects shadow copy deletion with vssadmin and converts cleanly to Splunk and to Microsoft Sentinel with Defender for Endpoint data. Full details are in `05-detection/coverage.md`.
 
 ---
 
@@ -151,10 +151,6 @@ The following indicators come from the CISA/FBI advisory (S01). They should be v
 | Ransom note | `akira_readme.txt`, `fn.txt` | Ransom note file names |
 
 The IP addresses listed in the SonicWall advisory (S02) are not attributed to Akira and date from late 2024, so they are not included here.
-
-These indicators and the mapped techniques are also packaged as a MISP event: `07-misp/akira-event.json`.
-
-**MISP feed lookup.** The CIRCL OSINT feed (S05) contains one Akira event, which reproduces the April 2024 version of S01. Its matching hashes are therefore circular reporting, not independent corroboration. The feed contains no event referencing CVE-2024-40766.
 
 ---
 

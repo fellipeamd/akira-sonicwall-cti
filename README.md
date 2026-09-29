@@ -30,6 +30,9 @@ Frameworks: MITRE ATT&CK, Cyber Kill Chain, Admiralty Code, estimative language.
 
 6. **The threat is relevant for Belgium, but Belgian-specific data is missing.** Akira's preferred sectors (critical manufacturing, healthcare, financial services, food and agriculture, education) overlap with many NIS2 entities in Belgium, but no source provides Belgian or EU-specific exploitation data. *(S01 — intelligence gap.)*
 
+7. <img width="2987" height="1590" alt="misp-dashboard" src="https://github.com/user-attachments/assets/bb68d39b-16f1-4444-ada1-07f4a22863a8" />
+
+
 ## Deliverables
 - [Technical Report](06-reports/technical-report.md)
 - [Policy Brief](06-reports/policy-brief.md)

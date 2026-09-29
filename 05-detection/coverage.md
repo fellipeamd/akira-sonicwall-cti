@@ -4,7 +4,7 @@ This table maps key Akira techniques to the log sources and Sigma rules that can
 
 | Technique | Kill Chain phase | Log source | Public rule? | Own rule |
 |-----------|------------------|------------|--------------|----------|
-| T1078 Valid Accounts | Exploitation | SonicWall SSL VPN / firewall logs | **No** (only an unrelated 2021 SonicWall exploit rule found) | — (see detection logic below) |
+| T1078 Valid Accounts | Exploitation | SonicWall SSL VPN / firewall logs | **Not found**| — (see detection logic below) |
 | T1219.002 Remote Desktop Software | Installation | Windows process creation | Yes (SigmaHQ: *Remote Access Tool - AnyDesk Execution*, *AnyDesk Silent Installation*) | — |
 | T1490 Inhibit System Recovery | Actions on Objectives | Windows process creation | Yes (SigmaHQ: *<rules/windows/process_creation/proc_creation_win_susp_shadow_copies_deletion.yml>*) | `shadow-copy-deletion.yml` |
 

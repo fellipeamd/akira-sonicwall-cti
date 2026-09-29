@@ -1,4 +1,4 @@
-## Key Findings
+## Key Judgements
 
 *Assessment date: 27 September 2026. Horizon: next 6–12 months.*
 
@@ -11,7 +11,7 @@
 
 3. We assess it is **likely** (**moderate** confidence) that organisations which patched CVE-2024-40766 without resetting local SSL VPN credentials and enforcing MFA remain exposed, as shown by the 2025 wave against patched Gen 7 devices. (Sources: S02)
 
-4. We assess it is **very likely** (**moderate** confidence) that Akira will continue to use internet-exposed SSL VPN appliances, including SonicWall, as an initial access vector over the next 6–12 months. (Sources: S01, S02, S03, FIRST EPSS)
+4. We assess it is **very likely** (**moderate** confidence) that Akira will continue to use internet-exposed SSL VPN appliances, including SonicWall, as an initial access vector over the next 6–12 months. (Sources: S01, S02, S03, S06)
 
 5. We assess there is a **roughly even chance** (**low** confidence) that Belgian organisations in Akira's preferred sectors have been or will be targeted through this vector; Akira's preferred sectors overlap with many NIS2 entities, but no Belgian-specific data was found. (Sources: S01, S05)
 

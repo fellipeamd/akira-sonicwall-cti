@@ -13,7 +13,7 @@ government, critical infrastructure and vital sectors in Belgium.
 ## PIR
 How does Akira gain initial access through SonicWall SSL VPN, and which
 detections allow defenders to stop the intrusion before encryption?
-Scope: April 2025 – September 2026, EU with focus on Belgium.
+Scope: August 2024 – September 2026, EU with focus on Belgium.
 
 ## EEIs
 1. Which initial access vectors does Akira use against SonicWall devices?
@@ -26,8 +26,8 @@ Scope: April 2025 – September 2026, EU with focus on Belgium.
 | EEI | Source | Method | Priority | Status |
 |-----|--------|--------|----------|--------|
 | 1 | CISA/FBI Akira advisory; SonicWall advisory; vendor IR reports | Read & extract | High | Done |
-| 2 | NVD, FIRST EPSS, CISA KEV | Python script | High | To do |
-| 3 | CISA advisory; MITRE ATT&CK; vendor reports | ATT&CK mapping | High | To do |
+| 2 | NVD, FIRST EPSS, CISA KEV | Python script | High | Done |
+| 3 | CISA advisory; MITRE ATT&CK; vendor reports | ATT&CK mapping | High | Done |
 | 4 | Vendor IR reports | Extract & compare | Medium | To do |
 | 5 | MITRE ATT&CK; SigmaHQ; Elastic rules | Coverage review | High | To do |
 

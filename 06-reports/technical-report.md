@@ -193,5 +193,5 @@ The IP addresses listed in the SonicWall advisory (S02) are not attributed to Ak
 | S02 | SonicWall PSIRT, SNWLID-2024-0015 (updated 20 Nov 2024), and Gen 7 SSL VPN threat activity notice (Aug 2025) | B2 |
 | S03 | CISA Known Exploited Vulnerabilities Catalog, CVE-2024-40766 | B1 |
 | S04 | NIST National Vulnerability Database, CVE-2024-40766 | B1 |
-| S05 | CIRCL OSINT feed via local MISP, event 1330 (reproduces S01) | B6 |
+| S05 | CIRCL OSINT feed via local MISP, event 1330 (reproduces S01) | B2 |
 | S06 | FIRST EPSS API, CVE-2024-40766 (retrieved 26 Sep 2026) | B2 |

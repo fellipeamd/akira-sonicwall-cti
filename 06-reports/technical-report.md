@@ -95,7 +95,7 @@ Akira actors use three related vectors against SonicWall devices:
 
 ## 6. Attack Chain: From Access to Encryption (EEI 3 and 4)
 
-After initial access, Akira relies heavily on legitimate tools that blend in with normal administration (S01). The ATT&CK Navigator layer (`03-analysis/attack-layer.json`) is the primary analytical model; the table below summarises the main techniques reported in S01.
+After initial access, Akira relies heavily on legitimate tools that blend in with normal administration (S01). The ATT&CK Navigator layer is the primary analytical model; the table below summarises the main techniques reported in S01.
 
 | Tactic | Technique | Observed behaviour (S01) |
 |---|---|---|

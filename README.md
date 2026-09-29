@@ -50,9 +50,7 @@ CVE-2024-40766, and to package this assessment's indicators as a MISP event
 
 ### What I did
 1. Searched the feed for Akira and CVE-2024-40766.
-2. [Created a MISP event with the IOCs from S01, TLP:CLEAR tag and
-   MITRE ATT&CK galaxy clusters.]
-3. [Connected with PyMISP using an API key stored in a .env file.]
+2. Connected with PyMISP using an API key stored in a .env file.
 
 ### Findings
 - The feed contains one Akira event (event 1330), which reproduces the

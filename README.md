@@ -17,7 +17,6 @@ Intelligence lifecycle: requirements → collection → analysis → disseminati
 Frameworks: MITRE ATT&CK, Cyber Kill Chain, Admiralty Code, estimative language.
 
 ## Bottom Line Up Front
-[the 4–5 line BLUF]
 
 **Key judgements:** five assessed judgements with probability and confidence
 levels (ICD 203) are in [Key Judgements](03-analysis/key-judgements.md) and
